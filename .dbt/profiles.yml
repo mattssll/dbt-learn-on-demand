@@ -1,0 +1,19 @@
+snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: zj39069.east-us-2.azure
+
+      # User/password auth
+      user: Vectux
+      password: V3ctuxt34m
+
+      role: ACCOUNTADMIN
+      database: raw
+      warehouse: COMPUTE_WH
+      schema: STAGING
+      threads: 1
+      client_session_keep_alive: False
+      query_tag: dbt
+
