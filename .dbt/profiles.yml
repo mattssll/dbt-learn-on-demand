@@ -10,7 +10,7 @@ snowflake:
       password: V3ctuxt34m
 
       role: ACCOUNTADMIN
-      database: raw
+      database: RAW
       warehouse: COMPUTE_WH
       schema: STAGING
       threads: 1
